@@ -1,0 +1,32 @@
+<?xml-stylesheet type="text/css" href="p5.css" ?> 
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<h1>STUDENTS INFORMATION</h1> 
+</head> 
+<students> 
+    <student> 
+        <USN>USN: 4BW16CS001</USN> 
+        <name>NAME: MAHESH</name> 
+        <college>COLLEGE : BGSIT</college> 
+        <branch>BRANCH: Computer Science and Engineering</branch> 
+        <year>YEAR: 2016</year> 
+        <e-mail>E-Mail: mahesh@gmail.com</e-mail> 
+    </student> 
+    <student> 
+        <USN>USN: BW16CS002</USN> 
+        <name>NAME: RAMESH</name> 
+        <college>COLLEGE: BGSIT</college> 
+        <branch>BRANCH: Computer Science and Engineering</branch> 
+        <year>YEAR: 2016</year> 
+        <e-mail>E-Mail: ramesh@gmail.com</e-mail> 
+    </student> 
+    <student> 
+        <USN>USN: BW161S001</USN> 
+        <name>NAME: SURESH</name> 
+        <college>COLLEGE : BGSIT</college> 
+        <branch>BRANCH: Information Science and Engineering</branch> 
+        <e-mail>E-Mail: suresh@gmail.com</e-mail> 
+    </student> 
+</students> 
+</html> 
