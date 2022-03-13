@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Growing and Shrinking</title>        
+    </head>
+    <style>
+         p{ 
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+         } 
+    </style>
+    </head>
+    <body> 
+        <h1 style="text-align: center;color: blue;">Text Growing and Shrinking</h1>
+        <hr> 
+        <p id="demo"></p> 
+        <script> 
+        var varl = setInterval(inTimer, 100); 
+        var fs = 5; 
+        var ids = document.getElementById("demo"); 
+        function inTimer() { 
+        ids.innerHTML = 'TEXT GROWING'; 
+        ids.setAttribute('style', "font-size:" + fs + "px; color: red"); 
+        fs += 5; 
+        if (fs >= 50) { 
+        clearInterval(varl); 
+        var2 = setInterval(deTimer, 100);
+        }
+    }
+    function deTimer() { 
+        fs -= 5; 
+        ids.innerHTML = 'TEXT SHRINKING'; 
+        ids.setAttribute('style', "font-size:" + fs +"px; color: blue"); 
+        if (fs ===5){ 
+            clearInterval(var2); 
+            varl = setInterval(inTimer, 100);
+        }
+    } 
+</script> </body> 
+</html> 
+ 
+        
